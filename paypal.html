@@ -34,13 +34,13 @@
             <div class="col-md-4">
                 <div class="withdraw statas">
                     <h5>Withdraw</h5>
-                    <h2>$00</h2>
+                    <h2>$<span id="currentWithdraw">00</span></h2>
                 </div>
             </div>
             <div class="col-md-4 ">
                 <div class="ballance statas">
                     <h5>Ballance</h5>
-                    <h2>$1200</h2>
+                    <h2>$<span id="currentBallance">1200</span></h2>
                 </div>
             </div>
         </div>
@@ -57,8 +57,8 @@
             <div class="col-md-6">
                 <div class="submit-area">
                     <h2>Withdraw</h2>
-                    <input type="text" class="form-control" placeholder="$you want to Withdraw amount"><br>
-                    <button class="btn btn-success">Enter</button>
+                    <input id="withdrawAmount" type="text" class="form-control" placeholder="$you want to Withdraw amount"><br>
+                    <button id="addWithdraw" class="btn btn-success">Enter</button>
                 </div>
             </div>
         </div>
