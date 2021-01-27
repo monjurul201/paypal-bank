@@ -8,9 +8,16 @@ loginBtn.addEventListener("click",function(){
     
 
 })
+
 //DepositBtn
 const depositBtn=document.getElementById("addDeposit");
 depositBtn.addEventListener("click",function(){
-    const depositAmount=document.getElementById("depositAmount").value;
-    const depositNumber=parseFloat(depositAmount);
+ const depositAmount=document.getElementById("depositAmount").Value;
+   const depositNumber=parseFloat(depositAmount);
+
+  const currentDeposit=document.getElementById("currentDeposit").innerText;
+  const currentDepositNumber=parseFloat(currentDeposit);
+  const totalDeposit=depositNumber+currentDepositNumber;
+  console.log(totalDeposit);
+ 
 })
